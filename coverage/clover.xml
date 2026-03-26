@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774498599385" clover="3.2.0">
-  <project timestamp="1774498599385" name="All files">
-    <metrics statements="46" coveredstatements="46" conditionals="6" coveredconditionals="6" methods="26" coveredmethods="26" elements="78" coveredelements="78" complexity="0" loc="46" ncloc="46" packages="3" files="15" classes="15"/>
+<coverage generated="1774501988304" clover="3.2.0">
+  <project timestamp="1774501988305" name="All files">
+    <metrics statements="62" coveredstatements="62" conditionals="8" coveredconditionals="8" methods="38" coveredmethods="38" elements="108" coveredelements="108" complexity="0" loc="62" ncloc="62" packages="4" files="19" classes="19"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -100,6 +100,37 @@
       <file name="urgente.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/urgente.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="15" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-04">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+      <file name="ArcherTraining.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-04/ArcherTraining.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="MageTraining.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-04/MageTraining.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="TrainingRoutine.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-04/TrainingRoutine.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+      </file>
+      <file name="WarriorTraining.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-04/WarriorTraining.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
   </project>
