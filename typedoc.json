@@ -8,10 +8,10 @@
     "src/ejercicio-06/*.ts",
     "src/ejercicio-07/*.ts",
     "src/ejercicio-08/*.ts",
+    "src/pe103/*.ts"
      /*
     "src/ejercicio-09/*.ts",
     "src/ejercicio-010/*.ts",
-    "src/pe103/*.ts"
     */
   ],
   "out": "./docs"
