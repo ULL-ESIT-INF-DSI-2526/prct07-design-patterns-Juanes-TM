@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774506210994" clover="3.2.0">
-  <project timestamp="1774506210994" name="All files">
-    <metrics statements="97" coveredstatements="97" conditionals="12" coveredconditionals="12" methods="54" coveredmethods="54" elements="163" coveredelements="163" complexity="0" loc="97" ncloc="97" packages="5" files="26" classes="26"/>
+<coverage generated="1774507877067" clover="3.2.0">
+  <project timestamp="1774507877067" name="All files">
+    <metrics statements="112" coveredstatements="112" conditionals="12" coveredconditionals="12" methods="66" coveredmethods="66" elements="190" coveredelements="190" complexity="0" loc="112" ncloc="112" packages="6" files="30" classes="30"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -190,6 +190,36 @@
         <line num="27" count="3" type="cond" truecount="4" falsecount="0"/>
         <line num="28" count="1" type="stmt"/>
         <line num="31" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-06">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
+      <file name="HistoryStrategy.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-06/HistoryStrategy.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+      <file name="PopularStrategy.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-06/PopularStrategy.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="RecommendationEngine.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-06/RecommendationEngine.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+      <file name="SimilarStrategy.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-06/SimilarStrategy.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
     </package>
   </project>
