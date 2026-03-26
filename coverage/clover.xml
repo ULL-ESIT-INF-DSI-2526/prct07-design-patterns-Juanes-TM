@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774494414593" clover="3.2.0">
-  <project timestamp="1774494414594" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="19" coveredmethods="19" elements="52" coveredelements="52" complexity="0" loc="31" ncloc="31" packages="2" files="10" classes="10"/>
+<coverage generated="1774498599385" clover="3.2.0">
+  <project timestamp="1774498599385" name="All files">
+    <metrics statements="46" coveredstatements="46" conditionals="6" coveredconditionals="6" methods="26" coveredmethods="26" elements="78" coveredelements="78" complexity="0" loc="46" ncloc="46" packages="3" files="15" classes="15"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -67,6 +67,39 @@
         <line num="33" count="1" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
         <line num="57" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-03">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <file name="CalculadoraCostes.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/CalculadoraCostes.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+      </file>
+      <file name="Shipment.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/Shipment.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="18" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="estantar.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/estantar.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="3" type="stmt"/>
+      </file>
+      <file name="internacional.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/internacional.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="urgente.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-03/urgente.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="3" type="stmt"/>
       </file>
     </package>
   </project>

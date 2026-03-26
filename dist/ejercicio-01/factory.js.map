@@ -1,0 +1,1 @@
+{"version":3,"file":"factory.js","sourceRoot":"","sources":["../../src/ejercicio-01/factory.ts"],"names":[],"mappings":";;;AAEA;;GAEG;AACH,MAAsB,iBAAiB;IAOrC;;;;OAIG;IACH,eAAe,CAAC,OAAe;QAC7B,MAAM,UAAU,GAAG,IAAI,CAAC,eAAe,EAAE,CAAC;QAC1C,OAAO,UAAU,CAAC,MAAM,CAAC,OAAO,CAAC,CAAC;IACpC,CAAC;CACF;AAhBD,8CAgBC"}
