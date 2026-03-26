@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for ejercicio-06/PopularStrategy.ts</title>
+    <title>Code coverage report for ejercicio-07/TrueFalseExam.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">ejercicio-06</a> PopularStrategy.ts</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">ejercicio-07</a> TrueFalseExam.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
@@ -82,43 +82,46 @@
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
 <a name='L19'></a><a href='#L19'>19</a>
-<a name='L20'></a><a href='#L20'>20</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { RecommendationStrategy } from "./interface";
-import { Item } from "./type";
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { ExamCorrector } from "./ExamCorrector";
 &nbsp;
 /**
- * Estrategia que recomienda los elementos más populares.
+ * Evaluación de examen tipo verdadero/falso.
  */
-export class PopularStrategy implements RecommendationStrategy {
-  /**
-   * Devuelve los elementos con mayor popularidad.
-   * @param userId Identificador del usuario (no utilizado).
-   * @param items Lista de elementos disponibles.
-   * @returns Lista de IDs ordenados por popularidad.
-   */
-  recommend(userId: string, items: Item[]): string[] {
-    return [...items]
-      .sort((a, b) =&gt; b.popularity - a.popularity)
-      .slice(0, 3)
-      .map(i =&gt; i.id);
+export class TrueFalseExam extends ExamCorrector {
+  constructor(comentario: boolean) {super(comentario)}
+&nbsp;
+  protected CorregirRespuestas(): void {
+    for (let i = 0; i &lt; this.plantillaCorreccion.length; i++) {
+      if (this.plantillaCorreccion[i] === this.respuestasAlumno[i])
+        this.correctas++;
+      else 
+        this.erradas++;
+    }
+  }
+&nbsp;
+  protected CalcularNota(): void {
+    this.nota = (this.correctas * 2) - (this.erradas * 0.5);
   }
 }</pre></td></tr></table></pre>
 

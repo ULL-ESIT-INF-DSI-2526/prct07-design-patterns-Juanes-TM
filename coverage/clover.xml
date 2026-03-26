@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774507877067" clover="3.2.0">
-  <project timestamp="1774507877067" name="All files">
-    <metrics statements="112" coveredstatements="112" conditionals="12" coveredconditionals="12" methods="66" coveredmethods="66" elements="190" coveredelements="190" complexity="0" loc="112" ncloc="112" packages="6" files="30" classes="30"/>
+<coverage generated="1774512090599" clover="3.2.0">
+  <project timestamp="1774512090600" name="All files">
+    <metrics statements="148" coveredstatements="148" conditionals="22" coveredconditionals="22" methods="81" coveredmethods="81" elements="251" coveredelements="251" complexity="0" loc="148" ncloc="148" packages="7" files="34" classes="34"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -220,6 +220,57 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-07">
+      <metrics statements="36" coveredstatements="36" conditionals="10" coveredconditionals="10" methods="15" coveredmethods="15"/>
+      <file name="ExamCorrector.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-07/ExamCorrector.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+      </file>
+      <file name="MultipleChoiceExam.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-07/MultipleChoiceExam.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="ShortAnswerExam.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-07/ShortAnswerExam.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="TrueFalseExam.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-07/TrueFalseExam.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
   </project>
