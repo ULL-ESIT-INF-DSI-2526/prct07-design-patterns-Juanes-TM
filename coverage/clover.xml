@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774512090599" clover="3.2.0">
-  <project timestamp="1774512090600" name="All files">
-    <metrics statements="148" coveredstatements="148" conditionals="22" coveredconditionals="22" methods="81" coveredmethods="81" elements="251" coveredelements="251" complexity="0" loc="148" ncloc="148" packages="7" files="34" classes="34"/>
+<coverage generated="1774517142939" clover="3.2.0">
+  <project timestamp="1774517142939" name="All files">
+    <metrics statements="171" coveredstatements="171" conditionals="22" coveredconditionals="22" methods="95" coveredmethods="95" elements="288" coveredelements="288" complexity="0" loc="171" ncloc="171" packages="8" files="45" classes="45"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -271,6 +271,65 @@
         <line num="12" count="3" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-08">
+      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
+      <file name="DigitalFactory.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/DigitalFactory.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="ImpresoFactory.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/ImpresoFactory.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+      <file name="PDFFactory.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/PDFFactory.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="ProcesarPedido.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/ProcesarPedido.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+      </file>
+      <file name="ReciboDigital.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/ReciboDigital.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="ReciboImpreso.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/ReciboImpreso.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="5" type="stmt"/>
+      </file>
+      <file name="ReciboPDF.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/ReciboPDF.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="TiendaApp.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/TiendaApp.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="TiendaFisica.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/TiendaFisica.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="TiendaOnline.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/TiendaOnline.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="factory.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-08/factory.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
       </file>
     </package>
   </project>
