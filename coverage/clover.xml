@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1774501988304" clover="3.2.0">
-  <project timestamp="1774501988305" name="All files">
-    <metrics statements="62" coveredstatements="62" conditionals="8" coveredconditionals="8" methods="38" coveredmethods="38" elements="108" coveredelements="108" complexity="0" loc="62" ncloc="62" packages="4" files="19" classes="19"/>
+<coverage generated="1774506210994" clover="3.2.0">
+  <project timestamp="1774506210994" name="All files">
+    <metrics statements="97" coveredstatements="97" conditionals="12" coveredconditionals="12" methods="54" coveredmethods="54" elements="163" coveredelements="163" complexity="0" loc="97" ncloc="97" packages="5" files="26" classes="26"/>
     <package name="ejercicio-01">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
       <file name="documentExportador.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-01/documentExportador.ts">
@@ -131,6 +131,65 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="12" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-05">
+      <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="4" methods="16" coveredmethods="16"/>
+      <file name="AudioEngine.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/AudioEngine.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="GameFacade.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/GameFacade.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+      <file name="GraphicsEngine.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/GraphicsEngine.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="InputManager.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/InputManager.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="NetworkManager.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/NetworkManager.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+      <file name="PhysicsEngine.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/PhysicsEngine.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="SaveSystem.ts" path="/home/usuario/practicas/prct07-design-patterns-Juanes-TM/src/ejercicio-05/SaveSystem.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
       </file>
     </package>
   </project>
